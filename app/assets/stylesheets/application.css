@@ -13,3 +13,96 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica, sans-serif;
+  color: #333;
+}
+
+.success {
+    color: green;
+  }
+
+
+header {
+  margin: 20px;
+  font-size: 13px
+}
+
+main {
+  margin: 0 30px;
+}
+
+main h1 {
+  font-size: 27px;
+}
+
+.main-text {
+  margin: 0 33px;
+  font-size: 13px;
+  line-height: 4;
+}
+
+.main-text span :hover {
+  background-color: black;
+  color: white;
+}
+
+/*index*/
+table th{
+  padding : 5px 10px;
+  font-size: 14px;
+}
+
+table td{
+  padding: 0 5px 7px;
+  font-size: 13px
+}
+
+table td :hover {
+  background-color: black;
+  color: white;
+}
+
+.form h2 {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.form p {
+  font-size: 13px
+}
+
+.field {
+  margin: 10px;
+}
+
+/*edit*/
+.form p {
+  font-size: 13px
+}
+
+.field {
+  margin: 10px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.link :hover {
+  background-color: black;
+  color: white;
+}
+
+/*show*/
+.show-book p{
+  margin-bottom: 40px;
+  margin-left: 45px;
+}
+
+
+
