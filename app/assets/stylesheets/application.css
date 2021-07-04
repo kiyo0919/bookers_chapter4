@@ -101,8 +101,7 @@ p {
 
 /*show*/
 .show-book p{
-  margin-bottom: 40px;
-  margin-left: 45px;
+  margin: 80px  45px 40px;
 }
 
 
